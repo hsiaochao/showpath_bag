@@ -1,0 +1,10 @@
+<launch>
+
+  <!-- run read_tum_path -->
+  <node name="read_tum_path" pkg="showpath_bag" type="read_tum_path" output="screen"/>
+
+  <!-- run rviz -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find showpath_bag)/launch/showpath_bag.rviz" output="screen"/>
+
+</launch>
+
