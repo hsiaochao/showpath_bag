@@ -12,7 +12,7 @@
 下载源码到工作空间的src文件夹：
 ```
 $ cd catkin_ws/src
-$  git clone https://gitee.com/hsiaochao/showpath/
+$  git clone https://gitee.com/hsiaochao/showpath_bag
 ```
 编译项目：
 ```
@@ -24,7 +24,7 @@ $ catkin_make
 #### 使用说明
 在一个终端启动该项目：
 ```
-$ roslaunch showpath showpath01.launch
+$ roslaunch showpath_bag showpath01.launch
 ```
 在另一个终端播放.bag文件
 并将geometry_msgs/PoseStamped格式的话题名映射为/gt_traj，与程序内部对应，举例：
