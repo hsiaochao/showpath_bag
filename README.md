@@ -10,16 +10,13 @@ Software Architecture Description Using ROS system and C++language, refer to CMa
 
 #### Installation and Compilation
 
-Download this source code into the src folder of your catkin worksapce:
+Download this source code into the src folder of your catkin worksapce  and catkin_make::
 ```
-$ cd catkin_ws/src
-$  git clone https://github.com/hsiaochao/showpath_bag
-```
-Compile the project:
-```
-$ cd catkin_ws
-$ source devel/setup.bash
-$ catkin_make
+cd ~/catkin_ws/src
+git clone https://github.com/hsiaochao/showpath_bag
+cd ../
+catkin_make
+source ~/catkin_ws/devel/setup.bash
 ```
 
 #### How to use it
