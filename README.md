@@ -23,11 +23,11 @@ source ~/catkin_ws/devel/setup.bash
 
 1.Start the project on a terminal:
 ```
-$ roslaunch showpath_bag showpath01.launch
+roslaunch showpath_bag showpath01.launch
 ```
 2.Play. bag file on another terminal, And map the topic names in geometry_msgs/PoseStamped format to/gt_ Traj, corresponding to the internal program, for example:
 ```
-$ rosbag play --pause  /usr/myhome/dataset_M2DGR/door_01_gt.bag /door_01:=/gt_traj
+rosbag play --pause  /usr/myhome/dataset_M2DGR/door_01_gt.bag /door_01:=/gt_traj
 ```
 You can complete the playback trajectory in rviz.
 #### Participate in contributions
